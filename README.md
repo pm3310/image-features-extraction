@@ -1,8 +1,10 @@
 ## Image Features Extraction
 
-This is the Keras model of the 16-layer network used by the VGG team in the ILSVRC-2014 competition.
+This is the Keras model of the 16-layer convolutional network used by the VGG team in the ILSVRC-2014 competition.
 It can be used in order to extract features from a visual point of view. The features can be utilized for
 many applications such as indexing of images or image recommendations.
+
+More specifically, the values of the penultimate layer of the CNN can be used as features for an image.
 
 ### Python Installation
 1. Download Python 3.5.2 https://www.python.org/downloads or install it via Homebrew
